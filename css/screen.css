@@ -43,6 +43,7 @@
   --global-color-neutral-xxx-dark: #35374d;
   --global-color-neutral-xxxx-dark: #20223a;
 
+
   --global-card-color: white;
   --global-page-color: var(--global-color-neutral-xxxx-dark);
   --global-page-backgroundColor: var(--global-color-neutral-xxxx-light);
@@ -89,13 +90,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --global-card-color:  var(--global-color-neutral-xxx-dark);
     --global-page-color: white;
     --global-page-backgroundColor: var(--global-color-neutral-xxxx-dark);
+
     --global-label-color: var( --global-color-neutral-x-light);
+    --global-card-color:  var(--global-color-neutral-xxx-dark);
     --global-input-backgroundColor: var(--global-color-neutral-xxxx-dark);
-    --global-input-borderColor: var(--global-color-neutral-xxxx-dark);
     --global-input-color: white;
+    --global-input-borderColor: var(--global-color-neutral-xxxx-dark);
   }
 
   .c-logo {
