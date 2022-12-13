@@ -669,12 +669,6 @@ input::placeholder {
   box-shadow: 0 0 0 3px var(--global-color-alpha-x-transparent);
 }
 
-/* option input for checkboxes and radio buttons */
-
-.c-option {
-  margin-right: var(--global-whitespace-sm);
-}
-
 /*
     Component: Label
     ---
@@ -692,6 +686,14 @@ input::placeholder {
 .c-label--option {
   padding-bottom: 0;
 }
+
+
+/* option input for checkboxes and radio buttons */
+
+.c-option {
+  margin-right: var(--global-whitespace-sm);
+}
+
 
 /* 
     Component: option
