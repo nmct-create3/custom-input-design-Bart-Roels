@@ -696,12 +696,6 @@ input::placeholder {
   box-shadow: var(--global-input-focus-boxShadowSpread) var(--input-focus-boxShadowColor, var(--global-input-focus-boxShadowColor));
 }
 
-/* option input for checkboxes and radio buttons */
-
-.c-option {
-  margin-right: var(--global-whitespace-sm);
-}
-
 /*
     Component: Label
     ---
